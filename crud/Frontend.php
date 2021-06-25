@@ -18,21 +18,26 @@
 
     <form action="crud/create.php" method="post" >
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">marca</label>
+          <label for="exampleInputEmail1" class="form-label">Nome</label>
           <input type="text" name="marca" class="form-control" id="exampleInputmarca" aria-describedby="marcaHelp">
          
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">modelo</label>
+            <label for="exampleInputEmail1" class="form-label">Marca</label>
             <input type="text" name="modelo" class="form-control" id="exampleInputmodelo" aaria-describedby="modeloHelp">
            
           </div>
 
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Ano</label>
+          <label for="exampleInputPassword1" class="form-label">Modelo</label>
+          <input type="number"name="Ano" class="form-control" id="exampleInputAno">
+        </div> 
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Mac</label>
           <input type="number"name="Ano" class="form-control" id="exampleInputAno">
         </div>
+
 
         <br>
         <button type="submit" class="btn btn-primary">cadastrar</button>

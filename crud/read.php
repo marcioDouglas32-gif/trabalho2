@@ -20,15 +20,15 @@ class TableRows extends RecursiveIteratorIterator {
   }
 }
 
-$servername = "j21q532mu148i8ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username = "ygazl4o9ggmxkayl";
-$password = "xerljyjrfsl46p75";
-$dbname    = "f2m9sbo6zmjxa5pz";
+$servername = "u6354r3es4optspf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username = "bopnyouosbb1zs9t";
+$password = "uwik3c20duh4sekn";
+$dbname    = "i8aijcct0lem6i2v";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $stmt = $conn->prepare("SELECT * FROM celular");
+  $stmt = $conn->prepare("SELECT * FROM celular1");
   $stmt->execute();
 
   // set the resulting array to associative
