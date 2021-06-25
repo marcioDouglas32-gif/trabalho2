@@ -1,6 +1,4 @@
 <?php
-
-
 $servername = "u6354r3es4optspf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $username = "bopnyouosbb1zs9t";
 $password = "uwik3c20duh4sekn";
