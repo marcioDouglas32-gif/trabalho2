@@ -9,7 +9,7 @@ try {
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $sql = "UPDATE celular1 SET modelo='SM-j500M' WHERE modelo=Redmi note 9";
+  $sql = "UPDATE celular1 SET modelo='SM-j500M' WHERE Nome=douglas";
 
   // Prepare statement
   $stmt = $conn->prepare($sql);
