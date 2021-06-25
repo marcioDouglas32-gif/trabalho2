@@ -16,7 +16,7 @@
 
     <h1>cadastrar carros</h1>
 
-    <form action="crud/create.php" method="post" >
+    <form action="create.php" method="post" >
         <div class="mb-3">
           <label for="exampleInputText1" class="form-label">Nome</label>
           <input type="text" name="marca" class="form-control" id="exampleInputmarca" aria-describedby="marcaHelp">
