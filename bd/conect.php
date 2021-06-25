@@ -11,4 +11,5 @@ try {
 } catch(PDOException $e) {
   echo "Não foi possivel se conectar : " . $e->getMessage();
 }
+
 ?>
